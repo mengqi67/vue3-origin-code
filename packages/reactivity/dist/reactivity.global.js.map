@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../shared/src/index.ts", "../src/index.ts"],
+  "sourcesContent": ["/*\n * @Author: ymq\n * @Date: 2022-08-19 18:06:03\n * @LastEditors: ymq\n * @LastEditTime: 2022-08-19 18:49:42\n * @Description: \n */\nexport function isObject(params:any) {\n    return typeof params === \"object\" && params !== null\n}", "/*\n * @Author: ymq\n * @Date: 2022-08-19 18:05:52\n * @LastEditors: ymq\n * @LastEditTime: 2022-08-19 18:48:25\n * @Description: \n */\nimport { isObject } from '@vue/shared'\n\nconsole.log(isObject(true))"],
+  "mappings": ";;AAOO,WAAS,SAAS,QAAY;AACjC,WAAO,OAAO,WAAW,YAAY,WAAW;AAAA,EACpD;;;ACAA,UAAQ,IAAI,SAAS,IAAI,CAAC;",
+  "names": []
+}
