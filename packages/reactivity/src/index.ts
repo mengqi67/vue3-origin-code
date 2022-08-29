@@ -2,9 +2,8 @@
  * @Author: ymq
  * @Date: 2022-08-19 18:05:52
  * @LastEditors: ymq
- * @LastEditTime: 2022-08-19 18:48:25
+ * @LastEditTime: 2022-08-22 11:50:45
  * @Description: 
  */
-import { isObject } from '@vue/shared'
-
-console.log(isObject(true))
+import * from './effect'
+import * from './reactive'
